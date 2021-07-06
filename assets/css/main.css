@@ -8,7 +8,10 @@
 h3 {
     font-size: 160%;
 }
-
+h4 {
+    font-size: 110%;
+    color: #3d3d3d
+}
 .header__infor {
     position: absolute;
     width: 100vw;
