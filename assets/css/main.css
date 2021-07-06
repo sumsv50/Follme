@@ -84,7 +84,7 @@ h4 {
     align-items: center;
 }
 
-.item + .item {
+a + a {
     margin-top: 10px;
 }
 

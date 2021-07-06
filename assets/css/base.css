@@ -59,4 +59,8 @@ p {
         opacity: 1;
     }
 }
-
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
