@@ -5,8 +5,12 @@
     height: 100vh;
     background: linear-gradient(to bottom, #E55D87, #5FC3E4);
 } */
+h3 {
+    font-size: 160%;
+}
 
 .header__infor {
+    position: absolute;
     width: 100vw;
     top: 0px;
     left: 0px;
@@ -61,4 +65,27 @@
 
 .sticky .infor__bio {
     display: none;
+}
+
+
+.link-list {
+    margin-top: 170px;
+}
+.item {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: white;
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.item + .item {
+    margin-top: 10px;
+}
+
+.type-logo {
+    width: 50px;
+    margin-right: 20px;
 }
