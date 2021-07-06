@@ -7,14 +7,14 @@ document.addEventListener("scroll", function(){ // or window.addEventListener("s
     if (st > lastScrollTop){
         // downscroll code
         console.log("down");
-        if(window.pageYOffset>50 && !headerInfor.classList.contains('sticky')) {
+        if(window.pageYOffset>70 && !headerInfor.classList.contains('sticky')) {
             headerInfor.classList.add('sticky');
             // link-list.style.margin-top = 
         }
     } else {
         // upscroll code
         console.log("up");
-        if(window.pageYOffset<50 && headerInfor.classList.contains('sticky')) {
+        if(window.pageYOffset<70 && headerInfor.classList.contains('sticky')) {
             headerInfor.classList.remove('sticky');
         }
     }
