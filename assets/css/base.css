@@ -1,0 +1,62 @@
+/* Đặt biến toàn cục trong :root vì
+*   - :root mạnh hơn
+    - Đối với các document khác thì :root chưa chắc là html
+*/
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --background-color: #f1f1f1;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    color: var(--text-color);
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Roboto', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0 auto;
+    /* background: linear-gradient(to bottom, #E55D87, #5FC3E4); */
+    background: var(--background-color);
+}
+
+p {
+    font-size: 1.2rem ;
+    line-height: 1.6rem;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar__icon{
+    font-size: 1.8rem;
+}
+
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
