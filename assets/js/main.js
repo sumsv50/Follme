@@ -6,14 +6,12 @@ document.addEventListener("scroll", function(){ // or window.addEventListener("s
    var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
     if (st > lastScrollTop){
         // downscroll code
-        console.log("down");
         if(window.pageYOffset>70 && !headerInfor.classList.contains('sticky')) {
             headerInfor.classList.add('sticky');
             // link-list.style.margin-top = 
         }
     } else {
         // upscroll code
-        console.log("up");
         if(window.pageYOffset<70 && headerInfor.classList.contains('sticky')) {
             headerInfor.classList.remove('sticky');
         }
